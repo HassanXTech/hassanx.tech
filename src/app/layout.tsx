@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://hassanx.tech/hassan.jpg",
+        url: "https://hassanx.tech/hassan.png",
         width: 1200,
         height: 630,
         alt: "Hassan Tech — Frontend Developer & Designer",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     title: "Hassan Tech — Frontend Developer & Designer",
     description:
       "Frontend developer & designer with 3+ years building user-friendly, performant interfaces.",
-    images: ["https://hassanx.tech/hassan.jpg"],
+    images: ["https://hassanx.tech/hassan.png"],
   },
   icons: {
     icon: [
@@ -101,7 +101,7 @@ export default function RootLayout({
     name: "Hassan Tech",
     alternateName: ["HassanXTech", "Hassan Shafique"],
     url: "https://hassanx.tech/",
-    image: "https://hassanx.tech/hassan.jpg",
+    image: "https://hassanx.tech/hassan.png",
     jobTitle: "Frontend Developer & Designer",
     sameAs: [
       "https://github.com/HassanXTech",
