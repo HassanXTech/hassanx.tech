@@ -23,7 +23,8 @@
     "nextjs",
     "typescript",
     "tailwindcss",
-    "framer-motion"
+    "framer-motion",
+    "Ux/Ui"
   ],
   "scripts": {
     "dev": "next dev --turbopack",

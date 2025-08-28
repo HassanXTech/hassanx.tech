@@ -15,14 +15,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://hassanx.tech"),
   title: {
-    default: "Hassan Tech (HassanXTech / Hassan Shafique) — Frontend Developer & Designer",
+    default: "Hassan Tech | Ux/Ui Developer & Designer",
     template: "%s | Hassan Tech",
   },
   description:
-    "Frontend developer & designer crafting fast, accessible web experiences. Also known as HassanXTech (Hassan Shafique). Düsseldorf-based.",
+    "Ux/Ui developer & designer crafting fast, accessible web experiences. Also known as HassanXTech (Hassan Shafique). Düsseldorf-based.",
   authors: [{ name: "Hassan Tech", url: "https://hassanx.tech" }],
   creator: "Hassan Tech",
   publisher: "Hassan Tech",
+  verification: {
+    google: "EHv8SIAy6x2xFG8gi8Wr5sNaUHcn0P0OIk64kjHXDkA",
+  },
   keywords: [
     "Hassan Tech",
     "HassanXTech",
@@ -55,9 +58,9 @@ export const metadata: Metadata = {
   category: "technology",
   applicationName: "Hassan Tech Portfolio",
   openGraph: {
-    title: "Hassan Tech (HassanXTech / Hassan Shafique) — Frontend Developer & Designer",
+    title: "Hassan Tech | Ux/Ui Developer & Designer",
     description:
-      "Frontend developer & designer with 3+ years building user-friendly, performant interfaces.",
+      "Ux/Ui developer & designer with 3+ years building user-friendly, performant interfaces.",
     url: "https://hassanx.tech",
     siteName: "Hassan Tech",
     locale: "en_US",
@@ -67,22 +70,22 @@ export const metadata: Metadata = {
         url: "https://hassanx.tech/hassan.png",
         width: 1200,
         height: 630,
-        alt: "Hassan Tech — Frontend Developer & Designer",
+        alt: "Hassan Tech — Ux/Ui Developer & Designer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     creator: "@hassantech",
-    title: "Hassan Tech — Frontend Developer & Designer",
+    title: "Hassan Tech | Ux/Ui Developer & Designer",
     description:
-      "Frontend developer & designer with 3+ years building user-friendly, performant interfaces.",
+      "Ux/Ui developer & designer with 3+ years building user-friendly, performant interfaces.",
     images: ["https://hassanx.tech/hassan.png"],
   },
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png", sizes: "any" },
-      { url: "/favicon.ico" },
+      { url: "/favicon.png" },
     ],
     apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
   },
@@ -102,7 +105,7 @@ export default function RootLayout({
     alternateName: ["HassanXTech", "Hassan Shafique"],
     url: "https://hassanx.tech/",
     image: "https://hassanx.tech/hassan.png",
-    jobTitle: "Frontend Developer & Designer",
+    jobTitle: "Ux/Ui Developer & Designer",
     sameAs: [
       "https://github.com/HassanXTech",
       "https://www.instagram.com/hassantech",

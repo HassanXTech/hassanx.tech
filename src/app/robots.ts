@@ -1,15 +1,17 @@
 import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const base = "https://hassanx.tech";
+  const baseUrl = "https://hassanx.tech";
+  
   return {
     rules: [
       {
         userAgent: "*",
         allow: "/",
+        disallow: ["/api/", "/_next/", "/favicon.ico"],
       },
     ],
-    sitemap: `${base}/sitemap.xml`,
-    host: base,
+    sitemap: `${baseUrl}/sitemap.xml`,
+    host: baseUrl,
   };
 }
