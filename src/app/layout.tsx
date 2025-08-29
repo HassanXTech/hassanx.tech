@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://hassanx.tech"),
   title: {
-    default: "Hassan Tech | Ux/Ui Developer & Designer",
+    default: "Hassan Tech | UX/UI Developer & Designer",
     template: "%s | Hassan Tech",
   },
   description:
-    "Ux/Ui developer & designer crafting fast, accessible web experiences. Also known as HassanXTech (Hassan Shafique). Pakistan-based. building...",
+    "UX/UI developer & designer crafting fast, accessible web experiences. Also known as HassanXTech (Hassan Shafique). Pakistan-based. building...",
   authors: [{ name: "Hassan Tech", url: "https://hassanx.tech" }],
   creator: "Hassan Tech",
   publisher: "Hassan Tech",
@@ -58,9 +58,9 @@ export const metadata: Metadata = {
   category: "technology",
   applicationName: "Hassan Tech Portfolio",
   openGraph: {
-    title: "Hassan Tech | Ux/Ui Developer & Designer",
+    title: "Hassan Tech | UX/UI Developer & Designer",
     description:
-      "Ux/Ui developer & designer with 3+ years building user-friendly, performant interfaces.",
+      "UX/UI developer & designer with 3+ years building user-friendly, performant interfaces.",
     url: "https://hassanx.tech",
     siteName: "Hassan Tech",
     locale: "en_US",
@@ -70,16 +70,16 @@ export const metadata: Metadata = {
         url: "https://hassanx.tech/hassan.png",
         width: 1200,
         height: 630,
-        alt: "Hassan Tech — Ux/Ui Developer & Designer",
+        alt: "Hassan Tech — UX/UI Developer & Designer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     creator: "@hassantech",
-    title: "Hassan Tech | Ux/Ui Developer & Designer",
+    title: "Hassan Tech | UX/UI Developer & Designer",
     description:
-      "Ux/Ui developer & designer with 3+ years building user-friendly, performant interfaces.",
+      "UX/UI developer & designer with 3+ years building user-friendly, performant interfaces.",
     images: ["https://hassanx.tech/hassan.png"],
   },
   icons: {
@@ -105,7 +105,7 @@ export default function RootLayout({
     alternateName: ["HassanXTech", "Hassan Shafique"],
     url: "https://hassanx.tech/",
     image: "https://hassanx.tech/hassan.png",
-    jobTitle: "Ux/Ui Developer & Designer",
+    jobTitle: "UX/UI Developer & Designer",
     sameAs: [
       "https://github.com/HassanXTech",
       "https://www.instagram.com/hassantech",
