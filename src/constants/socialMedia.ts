@@ -77,7 +77,7 @@ export const socialMediaLinks: Record<string, SocialMediaLink> = {
   },
   hashnode: {
     name: 'Hashnode',
-    url: 'https://hashnode.com/@hassantech',
+    url: 'https://hassantech.hashnode.dev',
     icon: SiHashnode,
   },
   // medium: {
