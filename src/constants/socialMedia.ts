@@ -75,11 +75,11 @@ export const socialMediaLinks: Record<string, SocialMediaLink> = {
     url: 'https://discord.com/users/1136625769628581928',
     icon: RxDiscordLogo,
   },
-  // hashnode: {
-  //   name: 'Hashnode',
-  //   url: '',
-  //   icon: SiHashnode,
-  // },
+  hashnode: {
+    name: 'Hashnode',
+    url: 'https://hashnode.com/@hassantech',
+    icon: SiHashnode,
+  },
   // medium: {
   //   name: 'Medium',
   //   url: '',
