@@ -41,7 +41,7 @@ export default function About() {
               width={183}
               height={182}
               className="w-44 h-44 left-[6.78px] top-[6.78px] absolute"
-              src="/4.jpg"
+              src="/4.png"
             />
             <div className="left-4 top-[170px] md:left-[55px] md:top-[192px] italic tracking-wide text-zinc-600 font-normal absolute justify-start text-xs">
               I love anime

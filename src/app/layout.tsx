@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://hassanx.tech/hassan.png",
+        url: "https://hassanx.tech/hassan.jpg",
         width: 1200,
         height: 630,
         alt: "Hassan Tech — UX/UI Developer & Designer",
@@ -80,14 +80,14 @@ export const metadata: Metadata = {
     title: "Hassan Tech | UX/UI Developer & Designer",
     description:
       "UX/UI developer & designer with 3+ years building user-friendly, performant interfaces.",
-    images: ["https://hassanx.tech/hassan.png"],
+    images: ["https://hassanx.tech/hassan.jpg"],
   },
   icons: {
     icon: [
-      { url: "/favicon.png", type: "image/png", sizes: "any" },
-      { url: "/favicon.png" },
+      { url: "/favicon.jpg", type: "image/png", sizes: "any" },
+      { url: "/favicon.jpg" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
+    apple: [{ url: "/favicon.jpg", type: "image/png", sizes: "180x180" }],
   },
 };
 
@@ -104,7 +104,7 @@ export default function RootLayout({
     name: "Hassan Tech",
     alternateName: ["HassanXTech", "Hassan Shafique"],
     url: "https://hassanx.tech/",
-    image: "https://hassanx.tech/hassan.png",
+    image: "https://hassanx.tech/hassan.jpg",
     jobTitle: "UX/UI Developer & Designer",
     sameAs: [
       "https://github.com/HassanXTech",

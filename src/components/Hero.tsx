@@ -11,7 +11,7 @@ export default function Hero() {
             width={96}
             height={96}
             className="w-24 h-24 rounded-full object-cover"
-            src="/hassan.png"
+            src="/hassan.jpg"
             priority
           />
         </AnimatedSection>
